@@ -1,0 +1,24 @@
+{
+  "name": "c2n-launchpad-cc",
+  "version": "1.0.0",
+  "description": "C2N是第一个去中心化的独家的众筹发布板，以公平、安全和高效的方式提供最热门和创新的项目。",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "charley",
+  "license": "MIT",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-ethers": "^3.0.4",
+    "@nomicfoundation/hardhat-toolbox": "^5.0.0",
+    "@openzeppelin/hardhat-upgrades": "^3.1.0",
+    "ethers": "^6.12.1",
+    "hardhat": "^2.22.3",
+    "mocha": "^10.4.0",
+    "undici": "^6.14.1"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "^5.0.2",
+    "@openzeppelin/test-helpers": "^0.5.16"
+  }
+}
